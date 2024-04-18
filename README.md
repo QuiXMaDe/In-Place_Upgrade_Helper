@@ -26,6 +26,6 @@ Please note:
 
 - This tool is a work in progress.
 - This tool **DOES NOT** activate Windows. Any product keys it uses are placeholder OEM GVLK keys.
-- This tool is currently available in native German. English is a translation. Any help optimizing the translation is welcome.
+- Tool reworked with support any languages. Read the "_languages\_readme.txt" file.
 
 [1]: https://learn.microsoft.com/en-us/windows/deployment/upgrade/windows-edition-upgrades
