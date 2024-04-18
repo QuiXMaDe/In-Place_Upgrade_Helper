@@ -1,0 +1,55 @@
+chcp_current=850
+
+hint_maximized_window_text=Wenn das Fenster nicht maximiert ist, bitte per Hand vergroessern/maximieren.
+hint_maximized_window_terminalbug_text=Dies ist ein bekannter Bug bei Windows Terminal.
+not_available=N/V
+files_found_text=Installationsdateien gefunden
+hint_not_available_text=Sollte die gewuenschte Windows Edition nicht im Installationsmedium enthalten sein, kann das Windows-Setup selbststaendig weitere Editionen generieren.
+upgrade_chart_text=Vollstaendige Installationsuebersicht:
+table_available_required_text=Moegliche Edition zum Installieren            Benoetigte Edition im Installationsmedium
+press_any_key_to_list_text=Beliebige Taste druecken um verfuegbare Editionen auf dem Installationsmediums anzeigen zu lassen.
+reading_installation_text=Lese Installationsmedium, bitte warten...
+press_any_key_to_start_text=Beliebige Taste druecken um den In-Place-Upgrade-Helper zu starten.
+press_any_key_text=Drucken Sie eine beliebige Taste, um fortzufahren...
+
+current_system_text=Aktuelles System
+hint_win11_text=In der Registry steht immer "Windows 10", selbst wenn Windows 11 installiert ist
+selected_system_text=AusgewÑhltes System
+hint_composition_text=Basis-Edition, worauf die eigentliche Edition technisch basiert
+hint_productkey_text=Offizieller Key von Microsoft zum Vorinstallieren, nicht zum Aktivieren
+special_edition_text=Special editions, only available on separate installation media
+readyto_text=Bereit zu
+slmgr_method_upgrade_text=Versuche den ausgewaehlten Key mit slmgr zu installieren (simpler Editionswechsel ohne In-Place-Upgrade)
+without_selecting_upgrade_text=Upgrade ohne Editionsauswahl starten, Setup entscheidet alleine. Entspricht einem normalen In-Place-Upgrade
+upgrade_text=Upgrade auf die ausgewaehlten Edition starten. Der passende Vorinstallations-Key wird dabei fuer das Setup genutzt
+forced_upgrade_text=ERZWUNGENES Upgrade auf die ausgewaehlten Edition starten. Der passende Vorinstallations-Key wird dabei fuer das Setup genutzt
+reset_choice_text=Auswahl zurÅcksetzen
+exit_text=Exit
+toinput_text=Bitte Auswahl treffen
+not_found_item=wurde nicht gefunden, beliebige Taste druecken um erneut zu versuchen.
+
+keychange_text=Es wird versucht die Edition per simplen Keywechsel zu aendern...
+running_text=Setup und Hintergrundprozesse laufen, bitte warten. Dieses Fenster schliesst danach automatisch.
+complete_text=VollstÑndig
+
+forced_1_text=Erzwingt ein In-Place-Upgrade (Apps und Einstellungen bleiben erhalten) auf die ausgewaehlte Version, indem in der Registry eine andere Version "vorgegaukelt" wird.
+forced_2_text=Soll z.B. die Pro installiert werden, dann wird "ProductName" und "EditionID" in der Registy mit den Werten der Pro-Edition ueberschrieben.
+forced_3_text=Setup denkt dann es ist bereits die Pro installiert und fuehrt mit dem In-Place-Upgrade fort.
+forced_4_text=So kann man ein In-Place-Upgrade machen, welches nicht im offiziellen Upgrade-Pfad ist, z.B. auch Downgrades von Pro zu Home.
+forced_5_text=Aber auch aus lizenzgruenden gesperrte Upgrade-Pfade, wie Home direkt zu Enterprise, lassen sich damit freischalten.
+forced_6_text=Oder auch ganz kreative Sachen wie Win10 Edu auf Win10 IoT Enterprise LTSC funktionieren.
+forced_7_text=Dieses ist natuerlich komplett unsupported von Microsoft, Benutzung auf eigene Gefahr.
+forced_8_text=Probleme sind allerdings bisher nicht aufgetreten, alles verhaelt sich wie ein normales In-Place-Upgrade.
+forced_9_text=Sollte man aus Versehen eine falsche Edition in die Registry geschrieben haben, einfach das erzwungene In-Place-Upgrade mit der richtigen Edition erneut starten.
+forced_10_text=Wirklich fortfahren? Ansonsten das Fenster jetzt schliessen!
+reg_entries_text=Setze Registry-Eintraege...
+
+autosearch_instpath_text=Es wird versucht, automatisch nach Installationsspeicher zu suchen
+storages_found_text=Das Tool befindet sich nicht im Installationsordner. Speicher mit Installationsdateien gefunden.
+choose_storage_text=WÑhlen Sie einen Speicher (M - manuell eingeben)
+choose_from_list_text=WÑhlen Sie aus der aktuellen Liste
+storage_text=Lagerung
+
+not_found_setup_1_text=nicht gefunden! Tool nicht zu den Installationsdateien kopiert?
+not_found_setup_2_text=Versuche ein externes Installationmedium zu nutzen...
+enter_sourcepath_text=Bitte Pfad zum Installationsmedium (z.B. F:\ oder D:\entpackesISO\) eingeben

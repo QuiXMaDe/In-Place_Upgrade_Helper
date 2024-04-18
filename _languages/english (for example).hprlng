@@ -1,0 +1,55 @@
+chcp_current=1251
+
+hint_maximized_window_text=If this windows is not maximized please change the size manually.
+hint_maximized_window_terminalbug_text=This is a know bug in Windows Terminal.
+not_available=N/A
+files_found_text=Installation files found
+hint_not_available_text=If the chosen edition is not available on the installation medium, Windows setup can generate certain editions by itself.
+upgrade_chart_text=Upgrade chart
+table_available_required_text=Available edition for installation            required edition on installation medium
+press_any_key_to_list_text=Press any key to list available editions on the installation medium.
+reading_installation_text=Reading installation medium, please wait...
+press_any_key_to_start_text=Press any key to start the In-Place-Upgrade-Helper.
+press_any_key_text=Press any key to continue...
+
+current_system_text=Current system
+hint_win11_text=Microsoft uses "Windows 10" for this registry key even if Windows 11 is installed
+selected_system_text=Selected system
+hint_composition_text=Basic edition, on which this edition is technically based
+hint_productkey_text=Official key from Microsoft for pre-installation, not for activation
+special_edition_text=Special editions, only available on separate installation media
+readyto_text=Ready to
+slmgr_method_upgrade_text=Try to install the selected key with SLMGR (simple edition change without in-place upgrade)
+without_selecting_upgrade_text=Upgrade without selecting an edition, setup decides alone (equivalent to a normal in-place upgrade)
+upgrade_text=Upgrade to the selected edition (the appropriate pre-installation key is used for the setup)
+forced_upgrade_text=FORCED upgrade to the selected edition (the appropriate pre-installation key is used for the setup)
+reset_choice_text=Reset choice
+exit_text=Exit
+toinput_text=Please make a selection
+not_found_item=was not found, please try again
+
+keychange_text=An attempt is made to "change" the edition by simply changing the key...
+running_text=Setup and background processes are running, please wait. This window then closes automatically.
+complete_text=Complete
+
+forced_1_text=Forces an in-place upgrade (apps and settings are retained) to the selected version by "faking" a different version in the registry.
+forced_2_text=For example, if Pro is to be installed, then "ProductName" and "EditionID" in the registry will be overwritten with the values of the Pro edition.
+forced_3_text=Setup then thinks the Pro is already installed and continues with the in-place upgrade.
+forced_4_text=This means you can do an in-place upgrade that is not in the official upgrade path, e.g. downgrades from Pro to Home.
+forced_5_text=But upgrade paths that are blocked for licensing reasons, such as Home directly to Enterprise, can also be unlocked with this.
+forced_6_text=Or even very creative things like Win10 Edu work on Win10 IoT Enterprise LTSC.
+forced_7_text=This is of course completely unsupported by Microsoft, use at your own risk.
+forced_8_text=However, no problems have arisen so far, everything behaves like a normal in-place upgrade.
+forced_9_text=Are you sure you want to continue? Otherwise, cancel with CTRL+C or simply close the window.
+forced_10_text=If you accidentally wrote the wrong edition into the registry, simply restart the forced in-place upgrade with the correct edition.
+reg_entries_text=Set registry entries...
+
+autosearch_instpath_text=Trying to search for installation storage automatically
+storages_found_text=The tool is not located in the installation folder. Storages with installation files found. 
+choose_storage_text=Choose a storage (M - Enter manually)
+choose_from_list_text=Choose from current list
+storage_text=Storage
+
+not_found_setup_1_text=not found. Tool not copied to the installation files?
+not_found_setup_2_text=Try using an external installation storage...
+enter_sourcepath_text=Please enter path to the installation storage (e.g. "F:\" or "D:\unpackedISO\")
